@@ -7,7 +7,7 @@
 
 body {
   font-family: sans-serif;
-  background-color: #f0f4f8;
+  background-color: #fdf6ee;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  background: white;
+  background: #fffaf5;
   border-radius: 16px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
   width: 480px;
@@ -27,7 +27,7 @@ body {
    組長任務：修改這裡的顏色和樣式
    ──────────────────────────────────── */
 header {
-  background: #4f8ef7;   /* 改成你們組喜歡的顏色 */
+  background: #e8793a;   /* 暖橘色 */
   color: white;
   padding: 20px 24px;
 }
@@ -55,8 +55,8 @@ header .subtitle { font-size: 13px; opacity: 0.85; margin-top: 4px; }
 }
 
 .message.bot {
-  background: #f0f4f8;
-  color: #333;
+  background: #fef0e1;
+  color: #5a3e2b;
   align-self: flex-start;
 }
 
@@ -76,20 +76,20 @@ header .subtitle { font-size: 13px; opacity: 0.85; margin-top: 4px; }
   display: flex;
   padding: 16px;
   gap: 10px;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #f0dcc8;
 }
 
 .input-area input {
   flex: 1;
   padding: 10px 14px;
-  border: 1px solid #ddd;
+  border: 1px solid #e8d0b8;
   border-radius: 8px;
   font-size: 14px;
   outline: none;
 }
 
 .input-area button {
-  background: #4f8ef7;   /* 改成你喜歡的顏色 */
+  background: #e8793a;   /* 暖橘色 */
   color: white;
   border: none;
   padding: 10px 20px;
@@ -105,6 +105,6 @@ footer {
   padding: 12px 24px;
   text-align: center;
   font-size: 12px;
-  color: #999;
-  border-top: 1px solid #f0f0f0;
+  color: #b89a7d;
+  border-top: 1px solid #f0dcc8;
 }
