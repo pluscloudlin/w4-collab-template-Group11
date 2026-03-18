@@ -64,7 +64,7 @@ header .subtitle { font-size: 13px; opacity: 0.85; margin-top: 4px; }
    組員 A 任務：修改這裡的顏色
    ──────────────────────────────────── */
 .message.user {
-  background: #2ab5a0;   /* 冷青色 */
+  background: #000000;   /* Member A: 改為黑色 */
   color: white;
   align-self: flex-end;
 }
