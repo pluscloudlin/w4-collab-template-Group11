@@ -15,7 +15,7 @@
     </header>
 
     <!-- 組員 A 任務：在這裡加上訊息計數顯示 -->
-    <!-- <p id="counter">訊息數：0</p> -->
+    <p id="counter">訊息數：0</p>
 
     <div id="chat-box">
       <div class="message bot">
@@ -52,6 +52,11 @@
       // 組員 A 任務：修改這裡的回覆邏輯
       botDiv.textContent = `你說了「${text}」！`;
       chatBox.appendChild(botDiv);
+
+      // 組員 A：更新訊息計數
+      const counter = document.getElementById('counter');
+      const allUserMessages = document.querySelectorAll('.message.user');
+      counter.textContent = '訊息數：' + allUserMessages.length;
 
       input.value = '';
       chatBox.scrollTop = chatBox.scrollHeight;
