@@ -9,7 +9,7 @@
 
 | 角色 | 姓名 | 負責分支 | 任務 | 狀態 |
 |------|------|---------|------|------|
-| 組長 | 林伽紜 | `main` `feature/change-title&header-color` | 修改標題 & header 顏色 | 🔀 |
+| 組長 | 林伽紜 | `main` `feature/change-title&header-color` | 修改標題 & header 顏色 | ✔️ |
 | 組員 A | 朱覺祥 | `feature/member-a` | 修改使用者訊息顏色 & 加計數器 | ⬜ |
 | 組員 B | （填名字）| `feature/member-b` | 修改按鈕樣式 & 加 footer 名單 | ⬜ |
 | 組員 C | （填名字）| `feature/member-c` | 加入歡迎訊息 & 自訂回覆邏輯 | ⬜ |
@@ -23,9 +23,9 @@
 ## 各組員任務說明
 
 ### 組長（`main` branch）
-- [ ] 把 `index.html` 裡的「第 X 組」改成你們組的實際名稱
-- [ ] 修改 `style.css` 裡 `header` 的背景顏色
-- [ ] 在這個檔案填入所有組員姓名
+- [v] 把 `index.html` 裡的「第 X 組」改成你們組的實際名稱
+- [v] 修改 `style.css` 裡 `header` 的背景顏色
+- [v] 在這個檔案填入所有組員姓名
 - [ ] 最後負責 review 所有 PR 並 merge
 
 ### 組員 A（`feature/member-a` branch）
